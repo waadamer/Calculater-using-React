@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button {
+  height: 2.5rem;
+  border-radius: 8px;
+  border: 2px solid #b698b2;
+  padding: 0.6em 5.2em;
+  margin-right: 7px;
+  font-size: 1em;
+  font-family: inherit;
+  background-color: rgb(79, 65, 86);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #44053c;
+}
+
+button:hover {
+  border-color: #b698b2;
+}
+
+button:focus,
+button:focus-visible {
+  border: 2px solid #44053c;
+}

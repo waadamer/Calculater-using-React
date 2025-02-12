@@ -1,0 +1,22 @@
+.math_op {
+    width: 1rem;
+    height: 1.4rem;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em !important;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #200224;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin: 0 2px;
+    display: inline-block;
+    margin-right: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.math_op:hover {
+    background-color:#8e608a;
+}
